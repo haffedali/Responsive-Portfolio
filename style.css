@@ -119,11 +119,14 @@ p {
     float: left;
 }
 
-
-@media screen and (max-width: 768px) {
+/* query for media page a bootstrap for the about! */
+@media screen and (max-width: 660px) {
     .portwrapper {
         width: 580px;
+    }
 
+    .portimage {
 
     }
+
 }
