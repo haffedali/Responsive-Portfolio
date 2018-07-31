@@ -69,7 +69,7 @@ body {
 
 .portwrapper {
     width: 720px;
-    height: 800px;
+    height: 900px;
     background-color: white;
     margin: auto;
     margin-top: 10px;
@@ -82,6 +82,7 @@ body {
     float: left;
     margin: auto;
     margin: 10px;
+    padding: 10px;
 }
 
 .portimage2 {
@@ -90,6 +91,7 @@ body {
     float: right;
     margin: auto;
     margin: 10px;
+    padding: 10px;
 }
 
 figure {
@@ -119,14 +121,41 @@ p {
     float: left;
 }
 
-/* query for media page a bootstrap for the about! */
+.portText {
+    position: relative;
+    padding: 10px;
+    background-color: turquoise;
+    width: 240px;
+    bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* query for portfolio page a bootstrap for the about! */
+/* ... it isn't working, plz help */
 @media screen and (max-width: 660px) {
-    .portwrapper {
-        width: 580px;
-    }
-
     .portimage {
-
+        float: left;
+        margin: auto;
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    .portimage2 {
+        float: right;
+        margin: auto;
+        margin: 10px;
+        padding: 5px;
+    }
+    .toggles {
+        position: relative;
+        color: #777777;
+        float: right;
+        width: 300px;
+        top: 40px;
+        height: 60px;
+        margin-right: 160px;
+    
     }
 
 }
